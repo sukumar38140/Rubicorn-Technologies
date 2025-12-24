@@ -15,6 +15,9 @@ import {
 } from 'lucide-react';
 
 const Services = () => {
+  const navigate = useNavigate();
+  const [selectedService, setSelectedService] = useState(null);
+
   const webAppServices = [
     {
       icon: <Globe size={40} />,
