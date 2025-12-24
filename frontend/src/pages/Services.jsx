@@ -24,6 +24,7 @@ const Services = () => {
       title: 'Responsive Web Design',
       description: 'Beautiful, mobile-first websites that work flawlessly on all devices.',
       features: ['Mobile Responsive', 'Fast Loading', 'SEO Optimized', 'Cross-browser Compatible'],
+      details: 'Our responsive web design ensures your website looks stunning on every device. We use the latest technologies and best practices to create fast, SEO-friendly websites that convert visitors into customers.',
     },
     {
       icon: <Code2 size={40} />,
