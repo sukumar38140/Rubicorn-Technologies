@@ -1,0 +1,17 @@
+{
+  "name": "rubicorn-technologies",
+  "version": "1.0.0",
+  "description": "Rubicorn Technologies Platform",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm start",
+    "start": "cd frontend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
