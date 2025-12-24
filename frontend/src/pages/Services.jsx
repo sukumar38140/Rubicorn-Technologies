@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import AnimatedSection from '../components/AnimatedSection';
 import {
   Code2,
   Smartphone,
@@ -8,6 +10,8 @@ import {
   FileText,
   Layers,
   CheckCircle2,
+  ArrowRight,
+  X,
 } from 'lucide-react';
 
 const Services = () => {
